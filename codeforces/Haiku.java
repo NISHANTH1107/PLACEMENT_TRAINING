@@ -1,4 +1,6 @@
 
+package codeforces;
+
 import java.util.*;
 
 class Main {
@@ -16,10 +18,13 @@ class Main {
         return c1 == 5 && c2 == 7 && c3 == 5;
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         String s1 = sc.nextLine();
         String s2 = sc.nextLine();
         String s3 = sc.nextLine();
 
         System.out.println(check575(s1, s2, s3));
+
+        sc.close();
     }
 }
